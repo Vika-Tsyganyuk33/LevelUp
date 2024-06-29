@@ -639,7 +639,7 @@ footer .container {
         width: 100%;
     }
     .navbar {
-        padding: 10px 4px;
+        padding: 10px 0px 4px 4px;
     }
 }
 @media screen and (max-width: 385px){
