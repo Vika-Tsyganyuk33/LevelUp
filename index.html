@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container navbar">
+            <div class="burger-menu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="menu-list">
+              <li><a href="#promo1">Промо</a></li>
+              <li><a href="#structure">Состав</a></li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#promo2">Промо2</a></li>
+              <li><a href="#orders">Заказать</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main class="container">
+        <section class="promo" id="promo1">
+            <div class="video_block">
+                <div class="video">
+                    <video class="video_media" src="./img/Y2mate.mx-Free Medical Background HD After Effects-(720p).mp4" autoplay muted loop></video>
+                </div>
+                <div class="info_start">             
+                    <h1>- LevelUp -</h1>
+                    <div class="info_product">
+                        <img src="./img/prod.png" alt="">
+                        <div>
+                            <p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <button type="submit" class="but"><a href="#order">Заказать</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="structure" id="structure">
+            <div class="row">
+                <div class="col structureOne">
+                    <div>
+                        <img src="./img/extract.png" alt="">
+                        <p>Красный корень</p>
+                    </div>
+                    <div>
+                        <img src="./img/extract2.png" alt="">
+                        <p>Горянка</p>
+                    </div>
+                    <div>
+                        <img src="./img/extract3.png" alt="">
+                        <p>Фадогия</p>
+                    </div>
+                </div>
+                <div class="structure_product">
+                    <img src="./img/prod.png" alt="">
+                </div>
+                <div class="col structureTwo">
+                    <div>
+                        <img src="./img/extract4.png" alt="">
+                        <p>Экстракт йохимбе</p>
+                    </div>
+                    <div>
+                        <img src="./img/extract5.png" alt="">
+                        <p>Женьшень</p>
+                    </div>
+                    <div>
+                        <img src="./img/extract6.png" alt="">
+                        <p>Барбарис</p>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="but"><a href="#order">Заказать</a></button>
+        </section>
+        <section class="container block_carousel" id="reviews">
+            <div class="carousel">
+                <button class="carousel-prev">&lt;</button>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="./img/pers1.png" alt="Person 1">
+                        <h3>Иван Иванов</h3>
+                        <p>Отличный продукт, полностью удовлетворен!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pers2.png" alt="Person 2">
+                        <h3>Игорь Петров</h3>
+                        <p>Продукт оправдал все ожидания, рекомендую!</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pers3.png" alt="Person 3">
+                        <h3>Алексей Сидоров</h3>
+                        <p>Быстрая доставка, спасибо!</p>
+                    </div>
+                </div>
+                <button class="carousel-next">&gt;</button>
+            </div>
+        </section>
+        <section class="promo2" id="promo2">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/doctor.png" alt="">
+                </div>
+                <div class="col text_prod">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure doloremque mollitia neque enim, vero nobis, voluptates officia tenetur assumenda.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure doloremque mollitia neque enim, vero nobis, voluptates officia tenetur assumenda.</p>
+                    <button type="submit" class="but"><a href="#order">Заказать</a></button>
+                </div>
+            </div>
+            <ul class="characteristic">
+                <li>&check; Lorem ipsum dolor sit.</li>
+                <li>&check; Lorem ipsum dolor sit.</li>
+                <li>&check; Lorem ipsum dolor sit.</li>
+            </ul>
+        </section>
+        <section class="form_orders" id="orders">
+            <div class="name_product">
+                <h2>LevelUp</h2>
+            </div>
+            <div class="timer-wrapper">
+                <span id="timer">30:00</span>
+            </div>
+            <div class="row">
+                <div class="col block_form">
+                    <form action="" class="form_data" id="order">
+                        <div class="input_wrapper">
+                            <input type="text" placeholder="Введите имя">
+                            <span class="hint">Пример: Иван</span>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="number" placeholder="Введите номер телефона">
+                            <span class="hint">Пример: +7(800)-555-34-21</span>
+                        </div>
+                        <button type="submit" class="but">Оформить заказ</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <img src="./img/prod.png" alt="">
+                    <span class="sum">589.42₽</span>
+                    <span class="oldSum">843.12₽</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="col">Lorem ipsum dolor sit.</div>
+            <div class="col">Lorem ipsum dolor sit.</div>
+            <div class="col">Lorem ipsum dolor sit.</div>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+</html>
