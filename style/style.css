@@ -596,12 +596,10 @@ footer .container {
         width: 100%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
-  
     .menu-list.active {
         display: flex;
         z-index: 6;
     }
-  
     .burger-menu {
         display: block; 
     }
