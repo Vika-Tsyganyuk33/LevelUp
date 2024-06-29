@@ -38,6 +38,7 @@ header {
     align-items: center;
     padding: 10px 0px 10px 10px;
     font-size: 19px;
+    width: 98%;
   }
 .menu-list {
     list-style-type: none;
